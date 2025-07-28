@@ -1,0 +1,13 @@
+# analysis_options.yaml
+analyzer:
+  errors:
+    deprecated_member_use: ignore
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    avoid_print: false
+    prefer_relative_imports: true
+    use_key_in_widget_constructors: false
+    avoid_redundant_argument_values: true
+    prefer_single_quotes: true
